@@ -1,0 +1,206 @@
+.am-tab-bar-bar{
+    border-top:1px solid black;
+    width:100%;
+}
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    box-sizing: border-box;
+    padding-bottom:100px;
+    background: #eee;
+}
+/*----搜索条-----*/
+.searchbar a{
+    display:block;
+    height:64px;
+    font-size:28px;
+    margin:8px 12px;
+    line-height:64px;
+    background:white;
+
+}
+
+/*-------轮播--------------*/
+.my-carousel {
+  background: #fff;
+}
+.my-carousel a {
+  display: inline-block;
+  width: 100%;
+  margin: 0; padding: 0;
+}
+.my-carousel a img {
+  width: 100%;
+  vertical-align: top;
+}
+.my-carousel .v-item {
+  height: 0.72rem;
+  line-height: 0.72rem;
+  padding-left: 0.2rem;
+}
+.sub-title {
+  color: #888;
+  font-size: .28rem;
+  padding: 30px 0 18px 0;
+}
+.am-wingblank.am-wingblank-lg {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+/*------navbar------*/
+.navBar{
+  display:flex;
+  display:-webkit-flex;
+  padding:22.5px 0;
+  background: white;
+}
+.navBar li{
+  flex:1;
+  text-align: center;
+  list-style: none;
+
+}
+.navBar li img{
+  width:81px;
+  height:81px;
+  padding-bottom: 22.5px;
+}
+.navBar li p{
+  font-size:24px;
+}
+/*---底部tabbar---*/
+#tab-bar.demo {
+  display: flex;
+  flex-direction: column;
+}
+#tab-bar .demoName {
+  height: 0.8rem;
+}
+#tab-bar .demo-preview-item,
+#tab-bar .demo-preview-item .am-tab-bar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+#tab-bar .demo-preview-item .am-tab-bar {
+  background-color: white;
+}
+.hot{
+  padding-bottom: 60px;
+}
+.hot .hot_product{
+  background: #fff;
+  margin-top:20px; 
+  display: block;
+}
+.hot .hot_product h2{
+  padding: 20px 0 20px 24px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+  font-weight:400;
+  font-size: 48px; 
+  color: orange;
+}
+.hot .hot_product ul{
+  overflow-x:auto;
+  white-space: nowrap; 
+}
+.hot .hot_product ul li{
+  width: 260px;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    padding: 0 10px;
+    border-right: 1px solid #eee;
+    position: relative;
+}
+.hot .hot_product ul li img{
+  vertical-align: top;
+  border:none;
+  max-width: 100%;
+}
+
+
+.hot .hot_product ul li h3{
+  font-size:24px;
+  color: #222;
+  line-height: 40px;
+  margin-bottom: 23px;
+  width: 95%;
+  text-align: left;
+  height: 80px;
+  white-space: normal; 
+}
+.hot .hot_product ul li .price_wrap{
+  height:60px;
+  font-size:28px;
+}
+.hot .hot_product ul li .price_wrap .new_price{
+  height:60px;
+  display: block;
+  color: red;
+  font-size:28px; 
+}
+.hot .hot_product ul li .price_wrap .new_price em{
+  height: 60px;
+  width: 20%;
+  float: left;
+  font-style:normal;
+  color: red
+}
+
+
+
+.active_pro{
+  background: #fff;
+  margin-bottom:20px;
+}
+.active_pro h4{
+  font-size: 48px;
+  font-weight: 400;
+  padding: 20px 0 20px 24px;
+  text-align:center;
+  color: orange;
+}
+.active_pro ul{
+  overflow-x:auto;
+  white-space: nowrap;
+}
+.active_pro ul li{
+   width: 260px;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 28px;
+    padding: 0 10px;
+    border-right: 1px solid #eee;
+    position: relative;
+    
+}
+.active_pro ul li a{
+  color:red;
+}
+.active_pro ul li img{
+   vertical-align: top;
+  border:none;
+  max-width: 100%;
+}
+.active_pro ul li h3{
+   font-size:24px;
+  color: #222;
+  line-height: 40px;
+  margin-bottom: 23px;
+  width: 95%;
+  text-align: left;
+  height: 80px;
+  white-space: normal;
+}
+
+
+
+
+

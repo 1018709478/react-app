@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    height: 100%;
+}
+#root{
+    height: 100%;
+}
+li{
+    list-style:none;   
+}
+a{
+    text-decoration: none;
+}
+.header{
+        position:fixed;
+        top:0;
+        left:0;
+        width:100%;
+}
+.header ul{
+    display: flex;
+    height: 66px;
+    text-align:center;
+    line-height:44px;
+    color:#fff;
+}
+.header-btn{
+    width:60px;
+     font-size:32px;
+    height: 66px;
+    line-height: 66px; 
+}
+.header-title{
+    flex:1;
+    font-size:32px;
+    height: 66px;
+    line-height: 66px; 
+}
+.main{
+    height: 100%;
+    font-size: 24px;
+    background:url(http://s1.ucaiyuan.com/h5/1.6.4/images/login/bg.jpg) center/100% 100% no-repeat;
+}
+.content{
+    padding-top:425px;
+    top:50%;
+    left:50%;
+    width:65%;
+    margin: 0 auto;
+}
+.content ul li{
+    border-bottom: 1px solid #fffcf9;
+    padding:10px 12px;
+    position:relative;
+}
+.content ul .user_name input{
+    border:none;
+    color: #f0f0f0;
+    font-size: 28px;
+    line-height: 48px;
+    width: 88%;
+    background-color:transparent; 
+    outline: none;
+}
+.content ul .user_name .clearUserName{
+    position: absolute;
+    right:0;
+    height: 30px;
+    width: 30px;
+    border:1px solid #f0f0f0;
+    border-radius: 50% ;
+    color: #f0f0f0;
+}
+
+.content ul .captcha #captchaCode{
+     border:none;
+    color: #f0f0f0;
+    font-size: 28px;
+    line-height: 48px;
+    background-color:transparent; 
+    outline: none;
+    width: 55%
+}
+.content ul .captcha #sendSms{
+    position: absolute;
+    width:175px;
+    right:0;
+    padding: 5px 0;
+    top: 9px;
+    color: #fefdfb;
+    font-size: 26px;
+    border-left:1px solid #fff;
+    text-align: center;
+
+}
+.content ul .password #passWord{
+     border:none;
+    color: #f0f0f0;
+    font-size: 28px;
+    line-height: 48px;
+    background-color:transparent; 
+    outline: none;
+    width: 88%
+}
+.content ul .password #showPassWord i{
+    position: absolute;
+    top: 7px;
+    right:4px;
+    width: 20px;
+    height: 10px;
+    border:1px solid #fffff3;
+    border-radius: 50%;
+}
+.content .login_btns{
+    margin: 25px auto 0;
+    width: 88%;
+    overflow: hidden;
+    color: #feffff;
+}
+.content .login_btns .orange_btn{
+    background: #ff7012;
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    text-align:center;
+    margin-bottom:15px;
+    font-size:32px; 
+    border-radius: 4px;
+}
+.content .login_btns .register{
+    display: block;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 32px;
+    border-radius: 4px;
+    color: inherit;
+    line-height: 80px;
+    border: 2px solid #eceeed;
+} 
+
+
+
+
+
+
+

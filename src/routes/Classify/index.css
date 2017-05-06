@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    height: 100%;
+    position: relative;
+}
+#root{
+    
+}
+li{
+    list-style:none;   
+}
+a{
+    text-decoration: none;
+}
+.title{
+    color:#222;
+    line-height: 88px;
+    font-size: 32px;
+    text-align: center;
+    background:white;
+}
+.mainlist{
+    background: #fff;
+    position:relative;
+    margin-top:20px;
+    overflow:hidden;
+}
+.mainlist div{
+    float: left;
+    padding-bottom:10px;
+}
+.mainlist div:nth-of-type(2n+1){
+    padding-right:3.8vw;
+    padding-left:3.8vw;
+    
+
+}
+.mainlist div img{
+    display: block;
+    margin:auto;
+    width: 44vw;
+    
+    position:relative;
+    vertical-align: top;
+    border:none;
+    
+}
